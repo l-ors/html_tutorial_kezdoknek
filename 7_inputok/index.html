@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inputok</title>
+  </head>
+  <body>
+    <form>
+      <h2>Töltsd ki az űrlapot!</h2>
+      <label for="v-nev">Add meg a vezetékneved:</label>
+      <input type="text" id="v-nev" name="v-nev" placeholder="Vezetéknév..." />
+      <br />
+      <br />
+      <label for="k-nev">Add meg a keresztnevet:</label>
+      <input type="text" id="k-nev" name="k-nev" placeholder="Keresztnév..." />
+      <br />
+      <br />
+      <input type="submit" value="Beküldés" />
+    </form>
+
+    <br />
+    <br />
+
+    <section>
+      <input type="text" placeholder="Szöveg..."  />
+      <br />
+      <br />
+      <input type="number" placeholder="Szám..." />
+      <br />
+      <br />
+      <input type="email" placeholder="Email..." />
+      <br />
+      <br />
+      <input type="password" placeholder="Jelszó..." />
+      <br />
+      <br />
+      <input type="number" placeholder="Szám..." />
+      <br />
+      <br />
+      <input type="search" placeholder="Keress..." />
+      <br />
+      <br />
+      <input type="file" />
+      <br />
+      <br />
+      <input type="color" />
+      <br />
+      <br />
+      <input type="date" />
+      <br />
+      <br />
+      <input type="time" />
+      <br />
+      <br />
+      <input type="range" />
+      <br />
+      <br />
+
+      <div>
+        <input type="radio" id="vanilia" name="iz" />
+        <label for="vanili">Vanilia</label>
+        <br />
+
+        <input type="radio" id="csoki" name="iz" />
+        <label for="csoki">Csoki</label>
+        <br />
+
+        <input type="radio" id="eper" name="iz" />
+        <label for="eper">Eper</label>
+      </div>
+
+      <br />
+      <br />
+
+      <div>
+        <input type="checkbox" id="jeg" />
+        <label for="jeg">Jég</label>
+        <br />
+        <input type="checkbox" id="szivoszal" />
+        <label for="szivoszal">Szívószál</label>
+      </div>
+    </section>
+    <br />
+    <br />
+    <section>
+      <button disabled>Gomb</button>
+      <br>
+      <textarea  name="panasz" id="panasz" cols="50" rows="1"></textarea>
+    </section>
+
+    <select name="nyelvek" id="nyelvek" >
+        <option value="angol">Angol</option>
+        <option value="nemet">Német</option>
+        <option value="magyar">Magyar</option>
+        <option value="spanyol">Spanyol</option>
+    </select>
+  </body>
+</html>
